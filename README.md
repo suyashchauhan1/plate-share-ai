@@ -3,8 +3,6 @@
 > Connecting food donors (restaurants, marriage halls, caterers) with verified NGOs to **reduce food waste** and **fight hunger** — powered by geo-spatial intelligence and AI heatmaps.
 
 **Live Preview:** https://plate-share-ai.lovable.app
-**Lovable Project:** https://lovable.dev/projects/c356de02-e6f1-4494-857d-4d527723878f
-
 ---
 
 ## Overview
