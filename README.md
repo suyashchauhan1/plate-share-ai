@@ -1,4 +1,4 @@
-# 🍽️ SharingPlate — AI-Powered Food Surplus Donation Platform
+# SharingPlate — AI-Powered Food Surplus Donation Platform
 
 > Connecting food donors (restaurants, marriage halls, caterers) with verified NGOs to **reduce food waste** and **fight hunger** — powered by geo-spatial intelligence and AI heatmaps.
 
@@ -7,7 +7,7 @@
 
 ---
 
-## 🌍 Overview
+## Overview
 
 **SharingPlate** is a full-stack web platform designed to bridge the gap between **food surplus** and **food scarcity**. Restaurants, wedding halls, and event organizers often discard large amounts of edible food, while NGOs and shelters struggle to find consistent supply for the people they serve.
 
@@ -19,39 +19,39 @@ SharingPlate solves this by providing:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🏠 Public Homepage
+### Public Homepage
 - **Hero section** with a striking visual and clear mission statement.
 - **Animated meal counter** showing real-time impact (meals donated, NGOs served, cities covered).
 - **Leaderboard** of top donors and most active NGOs.
 - **Donation CTA** encouraging visitors to join as donor or NGO.
 - Fully **responsive** navigation with sticky header and mobile menu.
 
-### 👨‍🍳 Donor Portal (`/donor`)
+### Donor Portal (`/donor`)
 - Sign in / Register flow for restaurants and event organizers.
 - **Dashboard** with key stats: total meals donated, events created, active listings, NGOs helped.
 - **Create Donation Event** form: food description, quantity, date/time, location, contact info.
 - **Recent Listings** view with status badges (available, claimed, completed).
 
-### 🤝 NGO Portal (`/ngo`)
+### NGO Portal (`/ngo`)
 - Sign in / Register flow for verified NGOs.
 - Browse and **claim available food donations** in their area.
 - Track claimed donations and impact over time.
 
-### 🗺️ AI Heatmap (planned)
+### AI Heatmap (planned)
 - Geo-spatial visualization powered by an external **AI/ML API**.
 - Shows donation density, hunger hotspots, and optimal routing zones.
 - Backend sends location + quantity data; AI returns heatmap intensities rendered on a map.
 
-### 🎨 Design System
+### Design System
 - Warm, charitable color palette: **orange** (food/warmth), **green** (sustainability), **gold** (highlights).
 - Custom gradients, elegant shadows, and smooth transitions defined in `index.css` & `tailwind.config.ts`.
 - Fully **semantic tokens** — light/dark mode ready.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend (this repo)
 | Layer | Technology |
@@ -76,7 +76,7 @@ SharingPlate solves this by providing:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 sharingplate/
@@ -106,7 +106,7 @@ sharingplate/
 
 ---
 
-## 🚦 Routes
+## Routes
 
 | Route | Description | Access |
 |---|---|---|
@@ -118,7 +118,7 @@ sharingplate/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - **Node.js** ≥ 18 ([install via nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
@@ -138,17 +138,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`.
-
-### Editing options
-- **Lovable** — visit the [project page](https://lovable.dev/projects/c356de02-e6f1-4494-857d-4d527723878f) and prompt edits. Changes auto-commit to the repo.
-- **Your IDE** — clone, edit locally, push. Changes sync back to Lovable.
-- **GitHub web editor** — use the pencil icon on any file.
-- **GitHub Codespaces** — Code → Codespaces → New codespace.
-
----
-
-## 🧠 AI Heatmap Architecture (planned)
+## AI Heatmap Architecture (planned)
 
 ```
    ┌──────────────┐    ┌──────────────┐    ┌─────────────────┐
@@ -171,7 +161,7 @@ The app will be available at `http://localhost:5173`.
 
 ---
 
-## 🔐 Security
+## Security
 
 - **JWT-based auth** with role separation (DONOR / NGO / ADMIN).
 - Roles stored in a **dedicated `user_roles` table** (never on the user/profile row) to prevent privilege escalation.
@@ -180,37 +170,9 @@ The app will be available at `http://localhost:5173`.
 
 ---
 
-## 🌐 Deployment
-
-### Frontend
-Open the [Lovable project](https://lovable.dev/projects/c356de02-e6f1-4494-857d-4d527723878f) → **Share → Publish**.
-
-### Custom Domain
-Project → **Settings → Domains → Connect Domain**.
-Full guide: [docs.lovable.dev/tips-tricks/custom-domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feat/amazing-feature`)
-3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
-4. Push (`git push origin feat/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📜 License
-
-MIT — feel free to use, modify, and share. Built with ❤️ to help reduce food waste and fight hunger.
-
----
-
-## 🙏 Acknowledgements
 
 - **shadcn/ui** for the beautiful component primitives
-- **Radix UI** for accessible headless components
+Acknowledgements- **Radix UI** for accessible headless components
 - **Lucide** for the icon set
 - **PostGIS** community for geo-spatial superpowers
 - Every **donor** and **NGO** working to make hunger history 💚
